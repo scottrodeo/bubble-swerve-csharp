@@ -19,7 +19,17 @@
 
 ## 🎮 Try It Out
 
-If you have access to the compiled binary or can run Avalonia apps locally, feel free to play the game. Instructions are provided in the source code or main window.
+You can try out Bubble Swerve by either:
+
+- **Downloading the latest release:**  
+  👉 [Download from the Releases page](https://github.com/scottrodeo/bubble-swerve-csharp/releases)
+
+- **Cloning the source code and running it locally:**
+  ```bash
+  git clone https://github.com/scottrodeo/bubble-swerve-csharp.git
+  cd bubble-swerve-csharp
+  dotnet build
+
 
 ---
 
