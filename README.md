@@ -33,7 +33,7 @@ You can try out Bubble Swerve by either:
 
 ---
 
-## 👀 For Hiring Managers & Evaluators
+## 👀 For the Public, Software Engineers & Evaluators
 
 You are welcome to:
 
