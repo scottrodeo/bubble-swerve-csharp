@@ -11,7 +11,6 @@
 ## 🚀 Features
 
 - Custom rotation system for game pieces  
-- Real-time scoring logic  
 - Shape variation with orientation-aware behavior  
 - Developed using modern C# and Avalonia for cross-platform compatibility  
 - Clean, modular code structure with object-oriented principles  
