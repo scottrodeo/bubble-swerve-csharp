@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assembly manifestVersion="1.0" xmlns="urn:schemas-microsoft-com:asm.v1">
+  
+  <!--
+    This manifest is used *only on Windows*.
+    It's important for enabling modern features like window transparency, DPI awareness, 
+    and support for embedded browser controls or custom rendering.
+    Avalonia apps rely on it for proper OS integration.
+  -->
+
+  <assemblyIdentity version="1.0.0.0" name="BubbleSwerve.Desktop"/>
+  <!-- 
+    Identifies the app and version for Windows' internal manifest system.
+    You can increment version as needed for deployment.
+  -->
+
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!--
+        This section lists which Windows versions the app is known to work on.
+        It improves compatibility by helping Windows apply the correct behaviors.
+        For now, you're explicitly supporting Windows 10.
+      -->
+
+      <!-- Windows 10 -->
+      <supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />
+
+      <!--
+        Other supported OS IDs (optional):
+        Windows 8.1: {4fae62d5-63c2-4af2-bc5e-a72a4d17aa1a}
+        Windows 7:   {35138b9a-5d96-4fbd-8e2d-a2440225f93a}
+        Windows 11 (not officially separate): Uses same ID as Windows 10
+      -->
+
+    </application>
+  </compatibility>
+</assembly>

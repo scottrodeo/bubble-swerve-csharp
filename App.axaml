@@ -1,0 +1,20 @@
+<!-- Root tag for the Avalonia Application -->
+<Application xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="BubbleSwerve.App"
+             RequestedThemeVariant="Default">
+             
+    <!--
+        RequestedThemeVariant sets the visual theme of the application.
+        - "Default": Follows the OS system theme (light/dark).
+        - "Dark": Forces dark mode regardless of system settings.
+        - "Light": Forces light mode.
+    -->
+
+    <!-- Define the global styles for the application -->
+    <Application.Styles>
+        <!-- Use FluentTheme for modern UI look (similar to Windows 11) -->
+        <FluentTheme />
+    </Application.Styles>
+
+</Application>

@@ -1,0 +1,16 @@
+<!--
+    This UserControl defines the visual container for the GamePanel.
+    It serves as a placeholder layout until dynamic content (like the GameGrid) is injected from code-behind.
+-->
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="BubbleSwerve.GamePanel"
+             Background="Black">
+    <!-- A simple grid layout with a centered label for initialization feedback -->
+    <Grid>
+        <TextBlock Text="Game Panel Initialized"
+                   Foreground="White"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Center"/>
+    </Grid>
+</UserControl>

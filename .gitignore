@@ -1,0 +1,16 @@
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.json
+*.so
+*.dylib
+*.log
+*.user
+*.suo
+*.userprefs
+*.lock.json
+.vs/
+

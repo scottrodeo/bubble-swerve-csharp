@@ -1,0 +1,16 @@
+{
+	"folders": [
+	  {
+		"path": "."  // Includes the current directory (root of Bubble Swerve project)
+	  }
+	],
+	"settings": {
+	  "editor.formatOnSave": true,                         // Automatically formats code on save
+	  "csharp.format.enable": true,                        // Enables C# formatting rules
+	  "csharp.referencesCodeLens.enabled": true,           // Shows reference counts above methods/classes
+	  "csharp.inlayHints.parameters.enabled": true,        // Shows parameter name hints inline
+	  "editor.tabSize": 4,                                 // Uses 4-space tabs
+	  "editor.insertSpaces": true                          // Inserts spaces instead of tab characters
+	}
+  }
+  

@@ -1,0 +1,17 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="BubbleSwerve.MainWindow">
+
+    <!-- The main container for the application UI -->
+    <Grid x:Name="MainGrid">
+    
+        <!-- Define two rows:
+             - First row (Row 0) has "Auto" height for controls like a toolbar or score display
+             - Second row (Row 1) takes up all remaining space for the game content -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" /> <!-- Optional header -->
+            <RowDefinition Height="*" />    <!-- Main game area -->
+        </Grid.RowDefinitions>
+
+    </Grid>
+</Window>
